@@ -1,0 +1,48 @@
+//
+//  AppDelegate.m
+//  Chaaarge
+//
+//  Created by Kuba Subczynski on 2015-01-02.
+//  Copyright (c) 2015 Kuba Subczynski. All rights reserved.
+//
+
+#import "AppDelegate.h"
+#import "Battery.h"
+
+@interface AppDelegate ()
+
+@end
+
+@implementation AppDelegate
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    //Sleep for 10 seconds so that launchd does not think app is crashing
+    [NSThread sleepForTimeInterval:10.0f];
+    
+    int batteryLevel = [Battery percentLeft];
+    
+//    if (batteryLevel > 20) {
+//        [NSApp terminate:self];
+//    }
+    
+    NSString *message = [[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", batteryLevel], @"% of battery power left.", nil] componentsJoinedByString:@""];
+    
+    [self.message setStringValue:message];
+    [self showWindow];
+}
+
+- (void)applicationWillTerminate:(NSNotification *)aNotification {
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+
+- (void)showWindow {
+    [self.window makeKeyAndOrderFront:self];
+    [self.window setLevel:NSStatusWindowLevel];
+    [self.window orderFrontRegardless];
+    [NSApp activateIgnoringOtherApps:true];
+}
+
+@end
