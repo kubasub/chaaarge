@@ -39,7 +39,7 @@
 }
 
 - (void)showWindow {
-    [self.window makeKeyAndOrderFront:self];
+    [self.window center];
     [self.window setLevel:NSStatusWindowLevel];
     [self.window orderFrontRegardless];
     [NSApp activateIgnoringOtherApps:true];
