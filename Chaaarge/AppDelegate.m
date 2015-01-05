@@ -16,9 +16,6 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    //Sleep for 10 seconds so that launchd does not think app is crashing
-    [NSThread sleepForTimeInterval:10.0f];
-    
     int batteryLevel = [Battery percentLeft];
     
 //    if (batteryLevel > 20) {
@@ -32,6 +29,9 @@
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
+    [NSApp hide:nil];
+    //Sleep for 10 seconds so that launchd does not think app is crashing
+    [NSThread sleepForTimeInterval:10.0f];
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
