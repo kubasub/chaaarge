@@ -668,30 +668,39 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="Chaaarge" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="alertPanel" id="QvC-M9-y7g">
+        <window title="Chaaarge!" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="alertPanel" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="91"/>
+            <rect key="contentRect" x="335" y="390" width="561" height="131"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="91"/>
+                <rect key="frame" x="0.0" y="0.0" width="561" height="131"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZNo-IU-I9x">
-                        <rect key="frame" x="105" y="23" width="357" height="48"/>
+                        <rect key="frame" x="139" y="94" width="371" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Battery is low on power." id="184-mQ-qel">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="systemBold"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16H-Ze-faQ">
-                        <rect key="frame" x="36" y="23" width="48" height="48"/>
+                        <rect key="frame" x="36" y="63" width="48" height="48"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="OlE-AD-ec5"/>
                     </imageView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f25-zS-IhA">
+                        <rect key="frame" x="139" y="19" width="392" height="67"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="QUT-yN-ySL">
+                            <font key="font" metaFont="system"/>
+                            <string key="title">You need charge your comptuters battery. If you don't, your computer will go to sleep when the battery runs out of power to preserve its memory contents.</string>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="280" y="217.5"/>
+            <point key="canvasLocation" x="320.5" y="237.5"/>
         </window>
     </objects>
 </document>
