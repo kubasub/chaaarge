@@ -44,6 +44,9 @@
 }
 
 - (void)showWindow {
+    [[self.window standardWindowButton:NSWindowCloseButton] setHidden:YES];
+    [[self.window standardWindowButton:NSWindowMiniaturizeButton] setHidden:YES];
+    [[self.window standardWindowButton:NSWindowZoomButton] setHidden:YES];
     [self.window center];
     [self.window setLevel:NSStatusWindowLevel];
     [self.window orderFrontRegardless];
