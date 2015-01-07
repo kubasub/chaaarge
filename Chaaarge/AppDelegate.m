@@ -38,6 +38,11 @@
     return YES;
 }
 
+- (IBAction)closeWindow:(id)sender {
+    [self.window close];
+    [NSApp terminate:nil];
+}
+
 - (void)showWindow {
     [self.window center];
     [self.window setLevel:NSStatusWindowLevel];

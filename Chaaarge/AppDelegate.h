@@ -13,6 +13,8 @@
 @property (weak) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTextField *message;
 
+- (IBAction)closeWindow:(id)sender;
+
 - (void)showWindow;
 @end
 
