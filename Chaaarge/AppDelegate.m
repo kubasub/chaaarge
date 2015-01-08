@@ -22,7 +22,7 @@
 //        [NSApp terminate:self];
 //    }
     
-    NSString *message = [[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", batteryLevel], @"% of battery power left.", nil] componentsJoinedByString:@""];
+    NSString *message = [[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", batteryLevel], @"% of battery power remaining.", nil] componentsJoinedByString:@""];
     
     [self.message setStringValue:message];
     [self showWindow];

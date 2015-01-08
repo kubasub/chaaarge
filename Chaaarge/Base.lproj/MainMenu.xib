@@ -693,7 +693,7 @@
                         <rect key="frame" x="139" y="49" width="392" height="67"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="QUT-yN-ySL">
                             <font key="font" metaFont="system"/>
-                            <string key="title">You need charge your comptuters battery. If you don't, your computer will go to sleep when the battery runs out of power to preserve its memory contents.</string>
+                            <string key="title">You need charge your comptuters battery. If you don't, your computer will go to sleep when the battery runs out of power to preserve its state.</string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
