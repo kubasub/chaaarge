@@ -18,7 +18,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     int batteryLevel = [Battery percentLeft];
     
-    if (batteryLevel < 10) {
+    if (batteryLevel > 10) {
         [NSApp terminate:self];
     }
     
