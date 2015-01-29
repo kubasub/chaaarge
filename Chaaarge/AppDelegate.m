@@ -18,11 +18,11 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     int batteryLevel = [Battery percentLeft];
     
-//    if (batteryLevel > 20) {
-//        [NSApp terminate:self];
-//    }
+    if (batteryLevel < 10) {
+        [NSApp terminate:self];
+    }
     
-    NSString *message = [[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", batteryLevel], @"% of battery power remaining.", nil] componentsJoinedByString:@""];
+    NSString *message = [[NSArray arrayWithObjects:[NSString stringWithFormat:@"%d", batteryLevel], @"% of battery power remaining!", nil] componentsJoinedByString:@""];
     
     [self.message setStringValue:message];
     [self showWindow];

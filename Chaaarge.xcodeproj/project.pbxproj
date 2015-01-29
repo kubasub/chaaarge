@@ -13,6 +13,9 @@
 		C5223E5E1A575A6200B9EF18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5223E5C1A575A6200B9EF18 /* MainMenu.xib */; };
 		C5223E6A1A575A6200B9EF18 /* ChaaargeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5223E691A575A6200B9EF18 /* ChaaargeTests.m */; };
 		C5223E751A577D7B00B9EF18 /* Battery.m in Sources */ = {isa = PBXBuildFile; fileRef = C5223E741A577D7B00B9EF18 /* Battery.m */; };
+		C556EAF01A79D418005330C8 /* warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = C556EAEF1A79D418005330C8 /* warrior.png */; };
+		C556EAF21A79F5B2005330C8 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C556EAF11A79F5B2005330C8 /* icon.icns */; };
+		C556EAF41A79F661005330C8 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = C556EAF31A79F661005330C8 /* icon.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		C5223E691A575A6200B9EF18 /* ChaaargeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaaargeTests.m; sourceTree = "<group>"; };
 		C5223E731A577D7B00B9EF18 /* Battery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battery.h; sourceTree = "<group>"; };
 		C5223E741A577D7B00B9EF18 /* Battery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Battery.m; sourceTree = "<group>"; };
+		C556EAEF1A79D418005330C8 /* warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warrior.png; path = ../../Desktop/warrior.png; sourceTree = "<group>"; };
+		C556EAF11A79F5B2005330C8 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../../Desktop/icon.icns; sourceTree = "<group>"; };
+		C556EAF31A79F661005330C8 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = icon.iconset; path = ../../Desktop/icon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 		C5223E471A575A6200B9EF18 = {
 			isa = PBXGroup;
 			children = (
+				C556EAF31A79F661005330C8 /* icon.iconset */,
+				C556EAF11A79F5B2005330C8 /* icon.icns */,
+				C556EAEF1A79D418005330C8 /* warrior.png */,
 				C5223E521A575A6200B9EF18 /* Chaaarge */,
 				C5223E661A575A6200B9EF18 /* ChaaargeTests */,
 				C5223E511A575A6200B9EF18 /* Products */,
@@ -196,6 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C556EAF01A79D418005330C8 /* warrior.png in Resources */,
+				C556EAF21A79F5B2005330C8 /* icon.icns in Resources */,
+				C556EAF41A79F661005330C8 /* icon.iconset in Resources */,
 				C5223E5B1A575A6200B9EF18 /* Images.xcassets in Resources */,
 				C5223E5E1A575A6200B9EF18 /* MainMenu.xib in Resources */,
 			);
