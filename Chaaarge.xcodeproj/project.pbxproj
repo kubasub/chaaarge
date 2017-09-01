@@ -41,9 +41,9 @@
 		C5223E691A575A6200B9EF18 /* ChaaargeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaaargeTests.m; sourceTree = "<group>"; };
 		C5223E731A577D7B00B9EF18 /* Battery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battery.h; sourceTree = "<group>"; };
 		C5223E741A577D7B00B9EF18 /* Battery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Battery.m; sourceTree = "<group>"; };
-		C556EAEF1A79D418005330C8 /* warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warrior.png; path = ../../Desktop/warrior.png; sourceTree = "<group>"; };
-		C556EAF11A79F5B2005330C8 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../../Desktop/icon.icns; sourceTree = "<group>"; };
-		C556EAF31A79F661005330C8 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = icon.iconset; path = ../../Desktop/icon.iconset; sourceTree = "<group>"; };
+		C556EAEF1A79D418005330C8 /* warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warrior.png; path = assets/warrior.png; sourceTree = "<group>"; };
+		C556EAF11A79F5B2005330C8 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = assets/icon.icns; sourceTree = "<group>"; };
+		C556EAF31A79F661005330C8 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = icon.iconset; path = assets/icon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
